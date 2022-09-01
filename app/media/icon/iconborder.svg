@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 126 126">
+  <defs>
+    <style>
+      .cls-1, .cls-3, .cls-4 {
+        fill: rgba(0,0,0,0);
+        stroke: rgba(255,75,43,0.1);
+      }
+
+      .cls-1 {
+        stroke-width: 15px;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        stroke-width: 5px;
+      }
+
+      .cls-4 {
+        stroke-width: 10px;
+      }
+    </style>
+  </defs>
+  <g id="iconborder" transform="translate(-371.5 -296.5)">
+    <g id="Ellipse_2.2" data-name="Ellipse 2.2" transform="translate(371.5 296.5)">
+      <circle id="Ellipse_4" data-name="Ellipse 4" class="cls-1" cx="55.5" cy="55.5" r="55.5" transform="translate(7.5 7.5)"/>
+    </g>
+    <g id="Ellipse_2.1" data-name="Ellipse 2.1" transform="translate(381.5 305.5)">
+      <circle id="Ellipse_1" data-name="Ellipse 1" class="cls-2" cx="48" cy="48" r="48" transform="translate(5 5)"/>
+      <circle id="Ellipse_2" data-name="Ellipse 2" class="cls-3" cx="50.5" cy="50.5" r="50.5" transform="translate(2.5 2.5)"/>
+    </g>
+    <g id="Ellipse_2-2" data-name="Ellipse 2" transform="translate(376 301)">
+      <circle id="Ellipse_6" data-name="Ellipse 6" class="cls-4" cx="53" cy="53" r="53" transform="translate(5 5)"/>
+    </g>
+  </g>
+</svg>

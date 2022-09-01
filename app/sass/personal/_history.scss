@@ -1,0 +1,31 @@
+#content-history {
+  .personal-main-card {
+    .card-bottom {
+      border: none;
+
+      .card-table-row {
+        &:last-child {
+          border: none;
+        }
+
+        .item {
+          .prename {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            color: rgba(0, 0, 0, 0.3);
+            margin-bottom: 2px;
+          }
+
+          .name {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 182.85%;
+            letter-spacing: 0.02em;
+            color: #333333;
+          }
+        }
+      }
+    }
+  }
+}

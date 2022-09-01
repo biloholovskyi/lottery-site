@@ -1,0 +1,102 @@
+@media screen and (max-width: 576px) {
+  .row-container {
+    max-width: 100% !important;
+  }
+
+  .home__wrapper--token .home {
+    min-height: 800px !important;
+  }
+
+  .token-list__nav .sort {
+    font-size: 14px;
+  }
+
+  .home__wrapper--personal .home__content__title {
+    font-size: 30px;
+  }
+
+  .reg__content .reg-form__bottom__button .enter {
+    width: 100%;
+  }
+
+  .reg__content .reg-form__bottom__button .google {
+    width: 100%;
+    padding: 15px 5px;
+    font-size: 13px;
+  }
+
+  .reg__content .reg-form__bottom__button .google .icon {
+    width: 16px;
+    height: 17px;
+    margin-left: 10px;
+  }
+
+
+  .reg-form__bottom--rec {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .mt-home {
+    margin-top: 20%;
+  }
+
+  .personal-body__content .personal-main-card .card-bottom .personal-new-password {
+    padding: 0 20px;
+  }
+
+  .personal-body__content .personal-main-card .card-bottom .bank-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .personal-body__content .personal-main-card .card-bottom .bank-card__btn {
+    margin-top: 16px;
+  }
+
+  .back-link-recovery {
+    text-decoration: none;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+  }
+
+  .personal-modal__lottery {
+    padding: 80px 0 0 15px;
+  }
+
+  .personal-modal__lottery .lottery-top:after {
+    left: -15px;
+  }
+
+  .personal-modal--money .personal-modal__lottery .lottery-top .out-nav {
+    left: -15px;
+  }
+
+  .personal-modal--money .personal-modal__lottery .personal-modal-money__input__label {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .personal-modal--money .personal-modal__lottery .personal-modal-money__input__desc {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+
+  .personal-modal--money .personal-modal__lottery #personal-eth .personal-modal-money__input__desc {
+    margin-left: 0;
+  }
+
+  .personal-modal--money .personal-modal__lottery #personal-eth .personal-modal-money__input {
+    width: 100%;
+  }
+
+  .personal-modal--money .personal-modal__lottery .lottery-top .out-nav {
+    overflow: scroll;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    width: 100%;
+  }
+}

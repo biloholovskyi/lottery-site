@@ -1,0 +1,243 @@
+@media screen and (max-width: 991px) {
+  #decor-one {
+    width: 80px !important;
+    height: 80px !important;
+  }
+
+  #decor-two {
+    width: 80px !important;
+    height: 80px !important;
+  }
+
+  #decor-three {
+    width: 80px !important;
+    height: 80px !important;
+  }
+
+  #decor-for {
+    width: 80px !important;
+    height: 80px !important;;
+  }
+
+  #decor-five {
+    width: 80px !important;
+    height: 80px !important;
+  }
+
+  #decor-six {
+    width: 80px !important;
+    height: 80px !important;
+  }
+
+  #decor-seven {
+    width: 80px !important;
+    height: 80px !important;
+  }
+
+  .home__wrapper #decor-three {
+    left: -50px;
+  }
+
+  .home__wrapper #decor-one {
+    left: 10px;
+  }
+
+.home__wrapper #decor-two {
+    left: 5%;
+  }
+
+  .home-form #decor-seven {
+    top: 10px;
+  }
+
+  .home-form__wrapper #decor-six {
+    bottom: 0px;
+    left: 80%;
+  }
+
+  .home-form__wrapper #decor-five {
+    left: -10px;
+    top: 25px;
+  }
+  
+  .home-form__wrapper {
+    overflow: hidden;
+  }
+  
+  .home__wrapper--token {
+    .decor-ellipse {
+      display: none;
+    }
+  }
+
+  .home__content__slider {
+    display: none;
+  }
+  
+  .home__content__title {
+    text-align: center;
+  }
+
+  .home__content {
+    .mobile-home-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 23px;
+    }
+  }
+
+  .home__nav__right {
+    display: none;
+  }
+  
+  .home__nav__left {
+    .home__logo {
+      &:after {
+        display: none;
+      }
+    }
+
+    .head-nav {
+      display: none;
+    }
+  }
+  
+  .reviews {
+    overflow: hidden;
+    padding: 50px 0;
+  }
+
+  .reviews-row {
+    overflow: scroll;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+    flex-wrap: nowrap;
+
+    div {
+      max-width: 100%;
+      width: 100%;
+    }
+
+    .reviews__card {
+      min-width: 300px;
+
+      &__head {
+        flex-direction: column;
+        align-items: flex-start;
+
+        .decor {
+          display: none;
+        }
+        
+        .user__money {
+          margin-top: 17px;
+          
+          .money {
+            text-align: left;
+          }
+          
+          .desc {
+            text-align: left;
+          }
+        }
+      }
+      
+      &__body {
+        text-align: left;
+      }
+    }
+  }
+
+  .home__content__title--personal {
+    font-size: 30px !important;
+  }
+
+  .personal-body__content .personal-main-card .card-bottom__big-title {
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+  }
+
+  .personal-body {
+    position: relative;
+    padding-top: 0;
+  }
+
+  .personal-nav {
+    display: none;
+    
+    &--mobile {
+      display: flex !important;
+      width: 100%;
+      margin-bottom: 16px;
+      overflow: scroll;
+      -ms-overflow-style: none;
+      overflow: -moz-scrollbars-none;
+      flex-wrap: nowrap;
+      white-space: nowrap;
+
+      .personal-nav__item {
+        padding-right: 16px;
+      }
+
+      .personal-nav__item--active {
+        background: transparent !important;
+        border-left: none;
+        border-bottom: 2px solid #ff4b2b;
+        border-top-right-radius: 0px !important;
+        border-bottom-right-radius: 0px !important;
+      }
+    }
+  }
+  
+  .humb {
+    display: block;
+    width: 18px;
+    height: 12px;
+    background-position: center;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../media/icon/humb.svg);
+  }
+  
+  .mobile-menu {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(236.86deg,#f5af19 29.48%,#f12711 100%);
+    top: -500%;
+    left: 0;
+    z-index: 100;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+
+    .close {
+      position: absolute;
+      width: 18px;
+      height: 12px;
+      top: 48px;
+      right: 16px;
+      background-position: center;
+      background-repeat: no-repeat;
+      -webkit-background-size: contain;
+      background-size: contain;
+      background-image: url(../media/icon/close-new.svg);
+    }
+
+    a {
+      font-family: 'Gotham pro';
+      font-size: 20px;
+      color: #fff;
+      margin-bottom: 20px;
+    }
+  }
+}

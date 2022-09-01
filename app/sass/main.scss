@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+a,
+a:hover,
+a:active,
+a:focus,
+a:visited {
+  text-decoration: none;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -ms-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+@import 'var';
+@import 'fonts';
+
+@import 'footer';
+@import 'not-found';
+@import 'reg/sign';
+@import 'louder';
+
+@import './home/home';
+@import './home/start';
+@import './home/reviews';
+@import './home/news';
+@import './home/home-form';
+
+@import './token/token-list';
+
+@import './personal/personal-body';
+@import './personal/personal-modal';
+@import './personal/personal-moda-money';
+@import './personal/history';
+
+@import './singel/article';
+@import './help/help';
+
+@import './media/1280';
+@import './media/1199';
+@import './media/991';
+@import './media/767';
+@import './media/576';

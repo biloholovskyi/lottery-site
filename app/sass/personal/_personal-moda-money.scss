@@ -1,0 +1,170 @@
+.personal-modal--money {
+  .personal-modal__lottery {
+    .lottery-top {
+      padding-bottom: 111px;
+      position: relative;
+
+      .personal-modal__desc {
+        margin-bottom: 52px;
+      }
+
+      .out-nav {
+        display: flex;
+        position: absolute;
+        left: -46px;
+        bottom: 0;
+
+        &__btn {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 17px;
+          display: flex;
+          align-items: center;
+          text-align: center;
+          letter-spacing: 0.04em;
+          text-transform: uppercase;
+          font-variant: small-caps;
+          color: #000000;
+          padding: 18px 30px;
+          background-color: transparent;
+          border: none;
+          -webkit-transition: all .3s;
+          -moz-transition: all .3s;
+          -ms-transition: all .3s;
+          -o-transition: all .3s;
+          transition: all .3s;
+          border-bottom: 1px solid #D8D8D8;
+          position: relative;
+          z-index: 10;
+          
+          &:hover {
+            cursor: pointer;
+          }
+
+          &--active {
+            border-bottom: 2px solid $red;
+          }
+        }
+      }
+    }
+
+    .personal-modal-money__input__label {
+      position: relative;
+      display: flex;
+      align-items: center;
+
+      &:after {
+        content: '';
+        position: absolute;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;/* identical to box height */
+        display: flex;
+        align-items: center;
+        color: #000000;
+        top: -8px;
+        left: 11px;
+        background-color: #fff;
+        padding: 0 4px;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        -ms-transition: all .3s;
+        -o-transition: all .3s;
+        transition: all .3s;
+      }
+
+      &--focus {
+        &:after {
+          color: $red;
+        }
+      }
+
+      &--error {
+        &:after {
+          color: #F12711;
+        }
+
+        .personal-modal-money__input {
+          border: 2px solid #F12711 !important;
+          padding: 17px 14px;
+        }
+      }
+    }
+
+    #personal-out {
+      &:after {
+        content: 'Сумма вывода';
+      }
+
+      .personal-modal-money__input {
+        width: 224px;
+      }
+    }
+
+    #personal-eth {
+      &:after {
+        content: 'ETH-кошелек';
+      }
+
+      .personal-modal-money__input {
+        width: 404px;
+      }
+
+      .personal-modal-money__input__desc {
+        margin-left: 24px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 29px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: $red;
+        
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+
+    .personal-modal-money__input__desc {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 26px;
+      letter-spacing: 0.02em;
+      color: #333333;
+      margin-left: 16px;
+    }
+
+    .personal-modal-money__input {
+      border: 1px solid #D8D8D8;
+      box-sizing: border-box;
+      border-radius: 4px;
+      padding: 18px 15px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 20px;
+      display: flex;
+      align-items: center;
+      color: #000000;
+
+      &::placeholder {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: rgba(0, 0, 0, 0.3);
+      }
+
+      &:focus {
+        border: 2px solid $red;
+        padding: 17px 14px;
+      }
+    }
+  }
+}
